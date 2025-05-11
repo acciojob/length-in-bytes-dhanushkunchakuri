@@ -1,11 +1,7 @@
 const byteSize = (str) => {
   // write your code here
-	let arr=str.split('');
+	reutrn new TextEncoder().encode(str).length;
 	
-	if(str.length === 0){
-		return 0;
-	}
-	return arr.length;
 	
 };
 
